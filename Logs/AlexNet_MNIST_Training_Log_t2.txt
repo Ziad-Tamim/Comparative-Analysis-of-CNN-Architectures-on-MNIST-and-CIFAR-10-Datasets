@@ -1,0 +1,39 @@
+Epoch 1/15
+ 16/938 ━━━━━━━━━━━━━━━━━━━━ 9s 11ms/step - accuracy: 0.1024 - loss: 2.3062 
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1714471293.854042     107 device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+W0000 00:00:1714471293.873937     107 graph_launch.cc:671] Fallback to op-by-op mode because memset node breaks graph update
+938/938 ━━━━━━━━━━━━━━━━━━━━ 0s 13ms/step - accuracy: 0.7810 - loss: 0.6264
+W0000 00:00:1714471305.633152     108 graph_launch.cc:671] Fallback to op-by-op mode because memset node breaks graph update
+W0000 00:00:1714471306.552541     107 graph_launch.cc:671] Fallback to op-by-op mode because memset node breaks graph update
+938/938 ━━━━━━━━━━━━━━━━━━━━ 24s 15ms/step - accuracy: 0.7811 - loss: 0.6260 - val_accuracy: 0.9802 - val_loss: 0.0666
+Epoch 2/15
+ 17/938 ━━━━━━━━━━━━━━━━━━━━ 6s 7ms/step - accuracy: 0.9792 - loss: 0.0773
+W0000 00:00:1714471308.217890     109 graph_launch.cc:671] Fallback to op-by-op mode because memset node breaks graph update
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 8ms/step - accuracy: 0.9787 - loss: 0.0820 - val_accuracy: 0.9891 - val_loss: 0.0386
+Epoch 3/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9870 - loss: 0.0531 - val_accuracy: 0.9907 - val_loss: 0.0346
+Epoch 4/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9880 - loss: 0.0445 - val_accuracy: 0.9924 - val_loss: 0.0252
+Epoch 5/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9911 - loss: 0.0360 - val_accuracy: 0.9932 - val_loss: 0.0224
+Epoch 6/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9907 - loss: 0.0357 - val_accuracy: 0.9931 - val_loss: 0.0290
+Epoch 7/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9929 - loss: 0.0279 - val_accuracy: 0.9929 - val_loss: 0.0276
+Epoch 8/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9936 - loss: 0.0255 - val_accuracy: 0.9923 - val_loss: 0.0228
+Epoch 9/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9936 - loss: 0.0239 - val_accuracy: 0.9927 - val_loss: 0.0314
+Epoch 10/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9937 - loss: 0.0222 - val_accuracy: 0.9906 - val_loss: 0.0503
+Epoch 11/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 8ms/step - accuracy: 0.9945 - loss: 0.0222 - val_accuracy: 0.9929 - val_loss: 0.0280
+Epoch 12/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9958 - loss: 0.0153 - val_accuracy: 0.9929 - val_loss: 0.0302
+Epoch 13/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9948 - loss: 0.0217 - val_accuracy: 0.9921 - val_loss: 0.0295
+Epoch 14/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9952 - loss: 0.0179 - val_accuracy: 0.9928 - val_loss: 0.0273
+Epoch 15/15
+938/938 ━━━━━━━━━━━━━━━━━━━━ 7s 7ms/step - accuracy: 0.9958 - loss: 0.0181 - val_accuracy: 0.9919 - val_loss: 0.0435
