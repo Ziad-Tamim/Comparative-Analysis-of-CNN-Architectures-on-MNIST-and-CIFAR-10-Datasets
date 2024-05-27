@@ -17,14 +17,14 @@ In addition to evaluating these models, this project explored the impact of vari
 | Dataset    | Model     | Accuracy t1 | Accuracy t2 |
 |------------|-----------|-------------|-------------|
 | **MNIST**  | LeNet     | 0.9852      | 0.9849      |
-|            | Alexnet   | 0.9913      | 0.9919      |
-|            | Googlenet | 0.9938      | 0.9934      |
-|            | Resnet    | 0.9924      | 0.9889      |
-| **CIFAR**  | LeNet     | 0.5237      | 0.5166      |
-|            | Alexnet   | 0.7516      | 0.7523      |
-|            | Googlenet | 0.7518      | 0.7343      |
-|            | Resnet    | 0.7764      | 0.7998      |
-|            | ResNet (regularisation) | 0.8909 | 0.896 |
+| **MNIST**  | Alexnet   | 0.9913      | 0.9919      |
+| **MNIST**  | Googlenet | 0.9938      | 0.9934      |
+| **MNIST**  | Resnet    | 0.9924      | 0.9889      |
+| **CIFAR-10**  | LeNet     | 0.5237      | 0.5166      |
+| **CIFAR-10**  | Alexnet   | 0.7516      | 0.7523      |
+| **CIFAR-10**  | Googlenet | 0.7518      | 0.7343      |
+| **CIFAR-10**  | Resnet    | 0.7764      | 0.7998      |
+| **CIFAR-10**  | ResNet (regularisation) | 0.8909 | 0.896 |
 
 
   
