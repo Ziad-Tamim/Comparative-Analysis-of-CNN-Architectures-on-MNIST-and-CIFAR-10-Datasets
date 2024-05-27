@@ -24,7 +24,7 @@ In addition to evaluating these models, this project explored the impact of vari
 |            | Alexnet   | 0.7516      | 0.7523      |
 |            | Googlenet | 0.7518      | 0.7343      |
 |            | Resnet    | 0.7764      | 0.7998      |
-| **CIFAR (regularisation)** | ResNet | 0.8909 | 0.896 |
+|            | ResNet (regularisation) | 0.8909 | 0.896 |
 
 
   
